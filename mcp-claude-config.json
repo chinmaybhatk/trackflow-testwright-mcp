@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "testwright-frappe": {
+      "command": "node",
+      "args": ["src/index.js"],
+      "env": {
+        "FRAPPE_URL": "https://your-frappe-app.com",
+        "FRAPPE_USER": "your-username",
+        "FRAPPE_PASSWORD": "your-password"
+      }
+    }
+  }
+}
